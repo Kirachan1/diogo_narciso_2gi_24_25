@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var nome="Passos Manuel"
+    document.write(nome)
+    document.write("<h1>"+nome+"</h1>")
+
+    var nome=prompt("Insira o seu nome, por favor:")
+    var hora=prompt("Introduza a hora, por favor:")
+    if(hora<12){
+      document.write("Bom dia, seja bem vindo senhor(a)"+nome);
+    }else{
+      if(hora>=14){
+        document.write("Boa tarde, seja bem vindo senhor(a)"+nome);
+      }else{
+        document.write("Seja bem vindo, almoça connosco?");
+      }}
+  </script>
+  <p>Este exemplo declara uma variável, dá um valor a essa variável e mostra essa variável.</p>
+
+  <h1>Praticando com variáveis</h1>
+  <script>
+    var nome=prompt("Insira o seu nome,por favor?")
+    var idade=prompt("Insira a Idade:")
+
+    if(idade>=18){
+        document.write("E de maior")
+    }
+    else{
+        document.write("E de menor")
+    }
+  </script>
+  <p id="demo">Apresenta o resultado aqui</p>
+  <script>
+    var nome="Diogo",apelido="Narciso",idade="17"
+
+    document.getElementById("demo").innerHTML=nome
+    +" "+apelido+"tem"+idade;
+  </script>
+  <script>
+    nome=prompt("Introduza o seu nome:","Em maiusculas");
+
+    if(nome.length >=5){
+        document.write("O seu nome é bem longo");
+    }
+    else{
+        document.write("Os seu nome é curto");
+    }
+  </script>
+
+
+</body>
+</html>
