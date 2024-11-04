@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Métodos do Objeto Document</h2>
+<input type="button" value="Alterar o Título" onclick="alterartítulo()">
+<br></br>
+<script>
+var nome = window.prompt("Qual é o seu nome?","Nome");
+var titulo = "PARABÉNS ao " + nome;
+document.write("PARABENS ao " + nome);
+function alterarTitulo(){
+   document.title = titulo; 
+}
+</script>
+</body>
+</html>

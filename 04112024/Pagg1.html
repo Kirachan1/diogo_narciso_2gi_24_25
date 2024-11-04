@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <script>
+            function aminhaFunc(){
+                alert("Olá a todos!");
+            }
+        </script>
+    </head>
+    <body>
+    <script>
+        var i =0;
+        do{
+            i++;
+            document.write("O número é "+i);
+            document.write("<br />")
+        }
+        while(i<=5);
+    </script>
+    <script>
+        var asuaIdade="";
+        do{
+            asuaIdade=prompt("INTRODUZA A SUA IDADE!","AQUI POR FAVOR!")
+
+        }
+        while(isNaN(asuaIdade)==true);
+        document.write("Muito bem a sua idade é de " + asuaIdade + " anos!");
+    </script>
+
+    <h2>A minha primeira função em JavaScript!</h2>
+    
+    <button onclick="aminhaFunc()">Experimenta</button>
+    <p>Este exemplo chama a função que realiza uma operação e retorna o resultado</p>
+    <p id="teste">Aqui será apersentado o resultado!</p>
+    <script>
+    function multiplicaFunc(a , b) {
+        return a * b;
+    }
+    document.getElementyById("teste").innerHTML = multiplicaFunc(5 , 3);
+    </script>
+    <h2>Métodos de Objeto window</h2><br>
+    <input type="button" value="Confirmar Nome" onclick="check()">
+    <input type="button" value="fechar esta javela" onclick="fechar()">
+    <script>
+        var name= window.prompt("Digite o seu nome");
+        var name= name.toUppercase();
+    function check (){
+        if(window.confirm("O seu nome é mesmo" + nome + ")")){
+            window.alert("voce confirmou que o seu nome é " + nome);
+        }
+        else{
+            window.alert("OK, é seu nome não é "+ nome)
+        }
+    }
+    function fechar(){
+
+    }
+    </script>
+    
+    </body>
+</html>
