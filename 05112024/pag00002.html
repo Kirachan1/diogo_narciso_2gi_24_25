@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    label{
+      width: 150px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    input{
+      width: 200px;
+    }
+    .formlinha{
+      margin-bottom: 20px;
+    }
+    fieldset{
+      display: block;
+      margin-left: 20px;
+      margin-right: 200px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: 5px dashed gold;
+    }
+    h1{
+      font-size: 55px;
+      text-align: center;
+      background-color: #fafad2;
+      color: #800000;
+      border: 8px groove chocolate;
+    }
+  </style>
+</head>
+<body>
+  <div id="contact"><h1>Dados de contacto</h1></div>
+  <form method="post">
+    <fieldset>
+      <legend><h2>Dados pessoais:</h2></legend>
+      <div class="formlinha">
+        <label for="contactNome">Nome:</label>
+        <input name="contactNome" id="contactNome" type="text">
+      </div>
+      <div class="formlinha">
+        <label for="tlmnumero">Número de telemóvel:</label>
+        <input name="tlmnumero" id="tlmumero" type="text">
+      </div>
+      <div class="formlinha">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+      </div>
+      <div class="formlinha">
+        <label for="notes">Comentário:</label>
+        <textarea name="notas" cols="40" rows="6" maxlength="200"></textarea>
+      </div>
+      <div class="formlinha">
+        <input style="width: 100px;" type="submit" value="Enviar">
+      </div>
+    </fieldset>
+    Insira a avaliação(Entra 1 e 5)
+    <input type="number" name="avaliacao" min="1" max="5">
+    <br><br>
+    selecione um valor
+    <input id="numero2_id" type="range" min="1" max="5">
+    <br><br>
+    <fieldset>
+
+        <legend>Contactos pessoais:</legend>
+        <br>
+        <label for="email_id">Email:</label>
+        <input type="email" id="email_id" name="email">
+        <br><br>
+        <label for="telefone_id">Número de telefone:</label>
+        <input id="telefone_id" name="telefone" type="tel">
+        <br><br>
+        <label for="url_id">Site da empresa:</label>
+        <input id="url_id" name="url" type="url"><br><br>
+        <br><br>
+        <label for="data_id">Data de nascimento:</label>
+        <input id="data_id" name="data" type="data">
+        <br><br>
+        <label for="data_hora_id">Data/Hora:</label>
+        <input id="data_hora_id" name="data-hora" type="datetime-local">
+        <br><br>
+        <label for="mes_id">Em que mês você nasceu?</label>
+        <input id="mes_id" name="mes" type="month">
+        <br><br>
+        <label for="hora_id">Hora do dia:</label>
+        <input id="hora_id" name="hora" type="time">
+        <br><br>
+        <label for="semana_id">Semana do Rock in Rio:</label>
+        <input id="semana_id" name="semana" type="week">
+        <br><br>
+        <div class="formlinha">
+          <input style="width: 100px;" type="submit" value="Enviar">
+        </div>
+        <br><br>
+
+      </fieldset>
+      <br>
+        <input id="senha_id" name="senha" type="password">
+        <input id="sim_id"  name="newsketter" name="newsletter" type="checkbox" value="sim">
+        <br>
+        <br>
+        <legend> linguagem</legend>
+        <input id="java_id" type="checkbox" value="java" name="linguagens">java
+        <input id="csharp" type="checkbox" value="csharp" name="linguagens">csharp
+        <input id="php_id" type="checkbox" value="php" name="linguagens">php
+        <input id="ruby_id" type="checkbox" value="ruby" name="linguagens">ruby
+
+        <legend> Cidade</legend>
+        <input id="sp_id" type="checkbox" value="sao_paulo" name="club">são paulo
+        <input id="barcelona_id" type="checkbox" value="barcelona" name="club">barcelona
+        <input id="milan_id" type="checkbox" value="milan" name="club">milan
+        <input id="mu_id" type="checkbox" value="manchesterU" name="club">macherster
+        <input id="bdm_id" type="checkbox" value="bayern" name="club">bayern munique
+</fieldset>
+  </form>
+</body>
+</html>
