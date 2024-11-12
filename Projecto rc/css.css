@@ -1,0 +1,236 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.anime{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.anime {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.anime img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+body {
+    background-image: url(6psss.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+.carousel-inner img {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+h2 {
+    text-align: center;
+    padding-top: 4%;
+}
+
+/* Estilos para a Página de Erro 404 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.error-page h1 {
+    font-size: 6rem;
+    color: #ff6b6b;
+    margin: 0;
+}
+
+.error-page p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.error-image {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.btn-home {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff6b6b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #ff4b4b;
+}
+
+/* Rodapé com links úteis */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.sitemap {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.sitemap li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sitemap li a:hover {
+    text-decoration: underline;
+}
+
+img 
+{
+    border: #fff;
+}
+
+
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-size: 1rem;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4b4b;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
