@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script language="javascript">
+            function escreve(){
+                var test = document.form1.caixa.value;
+                alert("Escreveste: " + test);
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form1">
+            Introduza o seu nome:
+            <input type="text" name="caixa" value="">
+
+            <input type="button" name="botao" value="submeter" onclick="escreve()">
+        </form>
+    </body>
+
+</html>
