@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center><h1>Jogos das Imagens </h1></center>
+        <script>
+            function correcao()
+            {
+                filme1=document.getElementById("resposta").value;
+                if(filme1=="carros 3"){
+                alert('Acertou. Pontuacao: 5 pontos!');}
+                else{
+                    alert('Tente outra vez.');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <img src="robin.jpeg" width="250" height="320"><br><br>
+        <form name="form1">
+            Introduza o nome do filme:
+            <input type="text" id="resposta" style="text-transform: uppercase;" size="30">
+        </form><br>
+        <button type="button" onclick="correcao()">Clique aqui para ver o seu resultado</button>
+    </body>
+</html
