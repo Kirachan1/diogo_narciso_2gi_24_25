@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function validaForm(){
+                var x = document.forms["myForm"]["nome"].value;
+                if(x=nullx==" !isNaN"(x)) {
+                    alert("O campo nome está vazio ou é um numero! Preencha-o corretamente, por favor!");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+
+        <form name="myForm" onsubmit="return validaForm()">
+            Nome: <input type="text" name="nome">
+
+            <input type="submit" value="Enviar!">
+        </form>
+    </body>
+</html>
